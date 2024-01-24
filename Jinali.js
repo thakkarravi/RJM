@@ -15,9 +15,9 @@ function Board({ xIsNext, squares, onPlay }) {
     }
     const nextSquares = squares.slice();
     if (xIsNext) {
-      nextSquares[i] = 'X';
+      nextSquares[i] = 'P';
     } else {
-      nextSquares[i] = 'O';
+      nextSquares[i] = 'Q';
     }
     onPlay(nextSquares);
   }
