@@ -16,6 +16,7 @@ function Recipe({ drinkers }) {
         <Recipe drinkers={2} />
         <h2>For a gathering</h2>
         <Recipe drinkers={4} />
+        <h3>mahi</h3>
       </section>
     );
   }  
